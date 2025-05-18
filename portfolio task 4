@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h1>About Me</h1>
+    <p>Hi, I'm Sumit , A web developer passionate about building responsive websites.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>To-Do List App</li>
+      <li>Product Filter Page</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
+
+
+//CSS CODE //
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: green;
+}
+
+p {
+  color: brown;
+}
+
+h2 {
+  color: green;
+}
+
+ul {
+  color: brown;
+}
+
+nav {
+  background: #333;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+nav a {
+  color: rgb(12, 243, 201);
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+input, textarea {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+button {
+  background: #7905f5;
+  color: white;
+  border: none;
+  padding: 0.7em;
+}
+
+
+
+
